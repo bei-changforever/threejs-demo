@@ -1,0 +1,37 @@
+{
+  "name": "threejs-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+  },
+  "dependencies": {
+    "@three-ts/orbit-controls": "^1.4.7",
+    "autofit.js": "^3.0.4",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.12.2",
+    "lodash": "^4.17.21",
+    "pinia": "^2.1.6",
+    "three": "^0.155.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.0",
+    "@types/node": "^18.17.5",
+    "@types/three": "^0.155.0",
+    "@vitejs/plugin-vue": "^4.3.1",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "@vue/tsconfig": "^0.4.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
+    "typescript": "~5.1.6",
+    "vite": "^4.4.9",
+    "vue-tsc": "^1.8.8"
+  }
+}
